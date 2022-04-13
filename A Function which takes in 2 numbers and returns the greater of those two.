@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class maxNumber {
+    public static int max(int x, int y){
+        if(x>y){
+            return x;
+        }
+        else if(x==y){
+            System.out.println("Numbers are equal");
+        }
+        else{
+            return y;
+        }
+        return 0;
+    }
+    public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the first point:");
+        int x = sc.nextInt();
+        System.out.println("Enter the Second point:");
+        int y = sc.nextInt();
+        System.out.println(max(x,y));
+    }
+}
