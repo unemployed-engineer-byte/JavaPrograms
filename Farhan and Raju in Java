@@ -1,0 +1,8 @@
+public class String1 {
+    public static void main(String[] args) {
+    String name1 = "Farhanitrate";
+//    String name2 = "Prerajulization";
+        System.out.println(name1.substring(0,6));
+//        System.out.println(name2.substring(3,7));
+    }
+    }
